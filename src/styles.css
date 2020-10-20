@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: yellow;
+  margin-bottom: 60px;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* section {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+app-heroes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+
